@@ -25,8 +25,9 @@
             <div class="form-head">
                 <span class="form-head-text">PERSON ADDRESS FORM</span>
                 <span class="cross-icon">
-                    <img src="../assets/images/cross.jpeg" class="close-circle" name="close-circle" onclick="cancel();">
-                    </ion-icon>
+                    <span id="img"><a href="../pages/addressBookHomePage.html" class="cancel-button"><img src="../assets/images/cross.jpeg"
+                        height="30" width="30" alt=" "></a></span>
+                                        </ion-icon>
                 </span>
             </div>
             
@@ -37,7 +38,7 @@
                 <error-output class="text-error"></error-output>
 
                 <label class="label text" for="address"></label><br>
-                <textarea id="address" class="input" name="address" placeholder="Address" style="height: 100px; "></textarea>
+                <textarea class="input" name="address" rows="5" id="address" placeholder="Enter Address"></textarea>
                 <error-output class="address-error"></error-output>
 
                 <div class="row-content">
