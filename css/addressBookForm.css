@@ -49,7 +49,7 @@ body {
 /*UC2*/
 .form-content {
     min-height: calc(100% - 80px);
-    background-color: #fffafa;
+    background-color: #edf5fa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,10 +236,17 @@ select {
     border-radius: 5px;
     opacity: 1;
   }
+  .addButton:hover {
+    background-color: #aeffae;
+  }
   
   .resetButton {
     background: #E2E2E2 0% 0% no-repeat padding-box;
     border: 1px solid #969696;
     border-radius: 5px;
     opacity: 1;
+  }
+  
+.resetButton:hover {
+    background-color: rgb(165, 175, 221);
   }
